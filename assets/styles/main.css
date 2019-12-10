@@ -1777,6 +1777,19 @@ ul.icons a {
   text-align: left;
 }
 
+.item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item div a {
+  margin-left: 1em;
+}
+
 /* Icons */
 .icon {
   text-decoration: none;
@@ -1867,7 +1880,7 @@ ul.icons a {
 }
 
 #header .icons a {
-  color: #41484c;
+  color: #919191;
   -webkit-transition: color 0.35s ease-in-out;
   transition: color 0.35s ease-in-out;
 }

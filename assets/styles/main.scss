@@ -524,10 +524,18 @@ ul.icons {
 		h3 {
 			font-size: 1em;
 		}
+
 	}
 	ul {
 		margin-left: 3em;
 		text-align: left;
+	}
+	div{
+		display: flex;
+		justify-content: center;
+		a {
+			margin-left: 1em;
+		}
 	}
 }
 
@@ -556,6 +564,7 @@ ul.icons {
 			font-family: "Font Awesome 5 Brands";
 		}
 	}
+
 }
 
 /* Header */
@@ -593,7 +602,7 @@ ul.icons {
 		text-align: center;
 
 		a {
-			color: #41484c;
+			color: #919191;
 			@include vendor("transition", "color 0.35s ease-in-out");
 
 			&:hover {
