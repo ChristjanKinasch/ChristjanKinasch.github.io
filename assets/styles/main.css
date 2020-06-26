@@ -258,6 +258,10 @@ b {
   color: #666;
 }
 
+.project_links{
+  margin-right: 1em;
+}
+
 em,
 i {
   font-style: italic;
@@ -305,7 +309,7 @@ ul,
 ol,
 dl,
 table {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 br.clear {
