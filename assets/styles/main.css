@@ -1655,6 +1655,9 @@ br.clear {
 section,
 article {
   margin-bottom: 3em;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  padding: 1em;
 }
 
 section > :last-child,
